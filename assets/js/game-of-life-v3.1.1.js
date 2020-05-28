@@ -13,7 +13,7 @@
 (function () {
 
   var stats = new Stats();
-  stats.setMode( 0 ); // 0 FPS, 1 MS
+  stats.setMode(0); // 0: fps, 1: ms, 2: mb, 3+: custom
 
   // align top-left
   stats.domElement.style.position = 'absolute';
@@ -21,9 +21,11 @@
   stats.domElement.style.bottom = '0px';
   stats.domElement.style.zIndex = '-999999';
 
+  /*
   document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild( stats.domElement );
   });
+  */
 
   var GOL = {
 
