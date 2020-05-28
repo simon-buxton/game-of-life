@@ -2,6 +2,10 @@
 
 /**
  * Game of Life - JS & CSS
+ * 
+ * Forked by simon in May 2020
+ * 
+ * Original:
  * http://pmav.eu
  * 04/Sep/2010
  */
@@ -30,7 +34,7 @@
     generation : 0,
 
     running : false,
-    autoplay : false,
+    autoplay : true,
 
 
     // Clear state
