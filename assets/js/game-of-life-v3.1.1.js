@@ -178,7 +178,7 @@
     loadConfig : function() {
       var colors, grid, zoom;
 
-      this.autoplay = this.helpers.getUrlParameter('autoplay') === '1' ? true : this.autoplay;
+      this.autoplay = this.helpers.getUrlParameter('autoplay') === '0' ? false : this.autoplay;
       this.trail.current = this.helpers.getUrlParameter('trail') === '1' ? true : this.trail.current;
 
       // Initial color config
